@@ -5,9 +5,6 @@ bill = index.bill;
 test('If the name of Bill is correct', () => {
     expect(bill.name).toBe('Bill');
   });
-  test('If the name of Bill is correct', () => {
-    expect(bill.size).toBe(30);
-  });
 test('If the name of Sally is correct', () => {
     expect(index.sally.name).toBe('Sally');
   });
